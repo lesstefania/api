@@ -10,8 +10,7 @@ import entity.Persona;
 	public interface PersonaRepository extends JpaRepository<Persona, Long> {
 		
 		Persona getById(int id);
-		
-
+	
 	    //
 	}
 
